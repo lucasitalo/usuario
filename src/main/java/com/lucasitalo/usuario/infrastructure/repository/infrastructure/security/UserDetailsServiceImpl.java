@@ -1,8 +1,8 @@
 package com.lucasitalo.usuario.infrastructure.repository.infrastructure.security;
 
 
-import com.lucasitalo.aprendendo__spring.infrastructure.entity.Usuario;
-import com.lucasitalo.aprendendo__spring.infrastructure.repository.UsuarioRepository;
+import com.lucasitalo.usuario.infrastructure.entity.Usuario;
+import com.lucasitalo.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
