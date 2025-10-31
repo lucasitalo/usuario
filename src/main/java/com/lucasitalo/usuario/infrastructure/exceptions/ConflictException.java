@@ -1,4 +1,4 @@
-package com.lucasitalo.usuario.infrastructure.repository.infrastructure.Exceptions;
+package com.lucasitalo.usuario.infrastructure.exceptions;
 
 public class ConflictException extends RuntimeException {
 
