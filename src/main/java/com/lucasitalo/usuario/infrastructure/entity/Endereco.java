@@ -1,10 +1,7 @@
 package com.lucasitalo.usuario.infrastructure.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -12,6 +9,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "endereco" )
+@Builder
 
 public class Endereco {
 
@@ -30,6 +28,8 @@ public class Endereco {
     private String estado;
     @Column(name = "cep", length = 9)
     private String cep;
+    @Column(name = "usuario_id")
+    private Long usuario_id;
 
 
 }
